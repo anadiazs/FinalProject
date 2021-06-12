@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+	<link rel="shorcut icon" href="old-calculator_icon-icons.com_56065.ico">
+	<script src="./funciones.js" async="true"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+	<link rel="stylesheet" href="./estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calculadora">
+        <div class="pantalla">
+            <div class="tema">
+                <div class="light"><i class="fas fa-sun" onclick="claro()"></i></div>
+                <div class="dark"><i class="fas fa-moon" onclick="oscuro()"></i></div>
+            </div>
+            <div id="output1"></div>
+            <div id="output2"></div>
+        </div>
+        <div class="botones">
+            <div class="boton borrar" onclick="borrar()">C</div>
+            <div class="boton"></div>
+            <div class="boton"></div>
+            <div class="boton ope" onclick="agregar('/')">/</div>
+
+            <div class="boton" onclick="agregar(7)">7</div>
+            <div class="boton" onclick="agregar(8)">8</div>
+            <div class="boton" onclick="agregar(9)">9</div>
+            <div class="boton ope" onclick="agregar('*')">*</div>
+
+            <div class="boton" onclick="agregar(4)">4</div>
+            <div class="boton" onclick="agregar(5)">5</div>
+            <div class="boton" onclick="agregar(6)">6</div>
+            <div class="boton ope" onclick="agregar('-')">-</div>
+
+            <div class="boton" onclick="agregar(1)">1</div>
+            <div class="boton" onclick="agregar(2)">2</div>
+            <div class="boton" onclick="agregar(3)">3</div>
+            <div class="boton ope" onclick="agregar('+')">+</div>
+
+            <div class="boton" onclick="agregar(0)">0</div>
+            <div class="boton"></div>
+            <div class="boton" onclick="agregar('.')">.</div>
+            <div class="boton igual" onclick="res()">=</div>
+        </div>
+    </div>
+</body>
+</html>

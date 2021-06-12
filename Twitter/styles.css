@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+}
+.left-container{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    float: left;
+    border-right-color: gray;
+    border-right-width: medium;
+}
+#logo{
+    margin-left: 20px;
+}
+.options-menu li{
+    font-size: 19px;
+    padding: 12px;
+    text-align: left;
+    margin-left: 80px;
+    list-style: none;
+}
+#left-icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#tweet-button{
+    width: 200px;
+    height: 48px;
+    border-color:transparent;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin:50px;
+    border-style: solid;
+    border-radius: 9999px;
+    background-color: rgb(29, 161, 242);
+    font-size: 15px;
+    color: white;
+}
+.center-container{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.navbar-home{
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+    border-bottom-color: black;
+    border-style: solid;
+    border-bottom-color: gainsboro !important;
+    border-left-color: gainsboro !important;
+    border-right-color: gainsboro !important;
+    border-color: transparent;
+    border-width: 2px;
+}
+#home{
+    margin-left: 10px;
+    text-align: left;
+    padding: 5px;
+    margin-top: 10px;
+}
+.create-tweet{
+    width: 100%;
+    height: 140px;
+    font-size: 15px;
+    color: gray;
+    border-style: solid;
+    border-left-color: gainsboro !important;
+    border-right-color: gainsboro !important;
+    border-color: transparent;
+}
+.create-tweet p{
+    position: relative;
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.profile-picture{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+}
+.profile-picture img{
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+}
+#tweet-button-create{
+    width: 100px;
+    height: 48px;
+    border-color: transparent;
+    margin: 20px;
+    border-style: solid;
+    background-color:rgb(29, 161, 242); ;
+    border-radius: 9999px;
+    font-size: 15px;
+    color: white;
+    margin-left: 80%;
+    margin-top: 2px;
+}
+.feed{
+    width: 100%;
+    height: 80%;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 3px;
+    border-top-width: 10px;
+}
+.first-content{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-bottom-color: gainsboro !important;
+    border-color:transparent;
+    border-width: 2px;
+}
+.first-content img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    border-radius: 9999px;
+}
+.first-content h5{
+    position:relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+#low-opacity{
+    position:relative;
+    float: left;
+    margin-top: 25px;
+    color: gray;
+    font-size: 12px;
+}
+#tweet-content{
+    position:absolute;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.second-content{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-bottom-color:gainsboro !important;
+    border-color: transparent;
+}
+#pp{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    float: left;
+    border-radius: 9999px;
+}
+.second-content h5{
+    position:relative;
+    float: left;
+    margin-right: 5px;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.img-post img{
+    width:80%; 
+    height: 70%;
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.right-container{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: right;
+}
+.searchbar{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.searchbar input{
+    width: 85%;
+    height: 40px;
+    border-radius: 9999px;
+    padding: 16px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: gainsboro;
+    opacity: 60%;
+    border-style: none;
+}
+.trends{
+    width: 85%;
+    height: 100%;
+    margin-left: 30px;
+    background-color:rgba(211, 211, 211, 0.13);
+    border-radius: 10px;
+}
+.trends h3{
+    padding: 20px;    
+}
+.trends-content{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    float: left;
+}
+.trend-post{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    border-style: solid;
+    border-bottom-color: gainsboro !important;
+    border-color: transparent;
+    border-width: 1px;
+}
+.trend-post h5,p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.text-container{
+    width: 99%;
+    height: 90px;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: gainsboro;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.trend-post p{
+    font-size: 14px;
+    position: relative;
+    float: left;
+}
+.img-trend-container{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    float: right;
+}
+
+
